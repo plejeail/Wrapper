@@ -1,0 +1,13 @@
+Package: wrap
+Type: Package
+Title: features selection with wrapper for supervised learning
+Depends: R (>= 3.0.0)
+Version: 1.5
+License: GPL-3
+Author: c(person("Maite", "Garcia", email = "maite.garcia@univ-lyon2.fr", role = c("aut", "cre")), person("Pierre", "Lejeail", email = "pierre.lejeail@univ-lyon2.fr", role = c("aut", "cre")), person("Jean-Luc", "Yongwe", email = "jean.yongwe@univ-lyon2.fr", role = c("aut", "cre")))
+Maintainer: Pierre Lejeail <pierre.lejeail@univ-lyon2.fr>
+Description: An implementation of the wrapper features selection in R. 
+LazyData: TRUE
+Imports: MASS, randomForest, e1071, genalg
+NeedsCompilation: no
+Packaged: 2016-12-19 16:03:09 UTC; gevisk
